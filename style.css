@@ -18,8 +18,11 @@
     --ly-border-radius: 30px;
     --ly2-primary-color: #dae8fc;
     --ly2-border-color: #899fc9;
+    --ly2-border-radius: 20px;
     --ly3-primary-color: #ffe6cc;
     --ly3-border-color: #d7a219;
+    --ly3-border-radius: 10px;
+
 }
 
 main {
@@ -62,6 +65,7 @@ main {
 .about-img-container {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
     flex: 1;
 
     display: flex;
@@ -87,26 +91,30 @@ main {
 .about-name {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
+
     flex: 1;
 
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .about-position {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
     flex: 1;
 
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .about-body {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
     flex: 2;
 
     display: flex;
@@ -129,6 +137,7 @@ main {
 .tech-title-container {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
     flex: 1;
 
     display: flex;
@@ -139,6 +148,7 @@ main {
 .tech-logo-container {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
     flex: 4;
 
     display: flex;
@@ -161,6 +171,7 @@ main {
 .work-title-container {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
     flex: 1;
 
     display: flex;
@@ -171,6 +182,7 @@ main {
 .work-content-container {
     background-color: var(--ly2-primary-color);
     border: 2px solid var(--ly2-border-color);
+    border-radius: var(--ly2-border-radius);
     flex: 4;
 
     display: flex;
@@ -181,12 +193,13 @@ main {
 .work-logo-container {
     background-color: var(--ly3-primary-color);
     border: 2px solid var(--ly3-border-color);
+    border-radius: var(--ly3-border-radius);
     flex: 1;
     height: 50%;
 
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .work-details-container {
@@ -200,16 +213,18 @@ main {
 .work-position-details {
     background-color: var(--ly3-primary-color);
     border: 2px solid var(--ly3-border-color);
+    border-radius: var(--ly3-border-radius);
     flex: 1;
 
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .work-tech-stack {
     background-color: var(--ly3-primary-color);
     border: 2px solid var(--ly3-border-color);
+    border-radius: var(--ly3-border-radius);
     flex: 1;
 
     display: flex;
@@ -220,63 +235,10 @@ main {
 .work-job-details {
     background-color: var(--ly3-primary-color);
     border: 2px solid var(--ly3-border-color);
+    border-radius: var(--ly3-border-radius);
     flex: 1;
 
     display: flex;
     justify-content: center;
     align-items: center
-}
-
-body {
-    background-color: lightgray;
-    color: grey;
-}
-
-.btn-theme {
-    background: linear-gradient(315deg, #cbc0d0, #f1e4f7);
-    box-shadow: -5px -5px 10px #bfb5c4,
-        5px 5px 10px #fff5ff;
-}
-
-.about-section,
-.tech-section,
-.work-section {
-    border: 0;
-    border-radius: 30px;
-    background: #e1d5e7;
-    box-shadow: inset 5px 5px 10px #bfb5c4,
-        inset -5px -5px 10px #fff5ff;
-}
-
-.about-img-container,
-.about-name,
-.about-position,
-.about-body,
-.tech-title-container,
-.tech-logo-container,
-.work-title-container,
-.work-content-container {
-    border: 0;
-    border-radius: 20px;
-    background: #dae8fc;
-    box-shadow: inset 5px 5px 10px #b9c5d6,
-        inset -5px -5px 10px #fbffff;
-}
-
-.work-logo-container,
-.work-position-details,
-.work-tech-stack,
-.work-job-details {
-    border: 0;
-    border-radius: 10px;
-    background: #ffe6cc;
-    box-shadow: inset 5px 5px 10px #d9c4ad,
-        inset -5px -5px 10px #ffffeb;
-}
-
-.about-img-container {
-    background-image: url("profile3-removebg-preview.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
 }
