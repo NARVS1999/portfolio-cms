@@ -1,12 +1,15 @@
 body {
-    background-color: lightgray;
+    /* background-color: lightgray; */
     color: grey;
+    /* background-color: darksalmon; */
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .btn-theme {
     background: linear-gradient(315deg, #cbc0d0, #f1e4f7);
-    box-shadow: -5px -5px 10px #bfb5c4,
-        5px 5px 10px #fff5ff;
+    box-shadow: 5px 5px 10px #cbc0d0,
+        -5px -5px 10px #f1e4f7;
 }
 
 .about-section,
